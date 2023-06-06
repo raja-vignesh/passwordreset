@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D6DC00782A2EFB1D004DA9FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC00772A2EFB1D004DA9FB /* AppDelegate.swift */; };
-		D6DC007A2A2EFB1D004DA9FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC00792A2EFB1D004DA9FB /* SceneDelegate.swift */; };
 		D6DC007C2A2EFB1D004DA9FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DC007B2A2EFB1D004DA9FB /* ViewController.swift */; };
-		D6DC007F2A2EFB1D004DA9FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DC007D2A2EFB1D004DA9FB /* Main.storyboard */; };
 		D6DC00812A2EFB1F004DA9FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DC00802A2EFB1F004DA9FB /* Assets.xcassets */; };
 		D6DC00842A2EFB1F004DA9FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DC00822A2EFB1F004DA9FB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		D6DC00742A2EFB1D004DA9FB /* PasswordReset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordReset.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6DC00772A2EFB1D004DA9FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6DC00792A2EFB1D004DA9FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D6DC007B2A2EFB1D004DA9FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D6DC007E2A2EFB1D004DA9FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6DC00802A2EFB1F004DA9FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6DC00832A2EFB1F004DA9FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6DC00852A2EFB1F004DA9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,15 +52,21 @@
 		D6DC00762A2EFB1D004DA9FB /* PasswordReset */ = {
 			isa = PBXGroup;
 			children = (
+				D6DC008B2A2EFC29004DA9FB /* Files */,
+			);
+			path = PasswordReset;
+			sourceTree = "<group>";
+		};
+		D6DC008B2A2EFC29004DA9FB /* Files */ = {
+			isa = PBXGroup;
+			children = (
 				D6DC00772A2EFB1D004DA9FB /* AppDelegate.swift */,
-				D6DC00792A2EFB1D004DA9FB /* SceneDelegate.swift */,
 				D6DC007B2A2EFB1D004DA9FB /* ViewController.swift */,
-				D6DC007D2A2EFB1D004DA9FB /* Main.storyboard */,
 				D6DC00802A2EFB1F004DA9FB /* Assets.xcassets */,
 				D6DC00822A2EFB1F004DA9FB /* LaunchScreen.storyboard */,
 				D6DC00852A2EFB1F004DA9FB /* Info.plist */,
 			);
-			path = PasswordReset;
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +129,6 @@
 			files = (
 				D6DC00842A2EFB1F004DA9FB /* LaunchScreen.storyboard in Resources */,
 				D6DC00812A2EFB1F004DA9FB /* Assets.xcassets in Resources */,
-				D6DC007F2A2EFB1D004DA9FB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +141,12 @@
 			files = (
 				D6DC007C2A2EFB1D004DA9FB /* ViewController.swift in Sources */,
 				D6DC00782A2EFB1D004DA9FB /* AppDelegate.swift in Sources */,
-				D6DC007A2A2EFB1D004DA9FB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D6DC007D2A2EFB1D004DA9FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D6DC007E2A2EFB1D004DA9FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D6DC00822A2EFB1F004DA9FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +283,6 @@
 				INFOPLIST_FILE = PasswordReset/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +309,6 @@
 				INFOPLIST_FILE = PasswordReset/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
